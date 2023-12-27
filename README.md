@@ -60,6 +60,6 @@ python calculator.py
 
 A calculadora irá retornar o resultado da operação, que neste caso é 3.
 
-#Melhorias futuras
+# Melhorias futuras
 
 Adicionar suporte a outras operações matemáticas, como raiz quadrada, potência, etc.
