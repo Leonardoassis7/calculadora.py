@@ -37,25 +37,25 @@ Aqui estão alguns exemplos de como usar a calculadora:
 # Soma
 python calculator.py
 
-2
+2+
 3
 A calculadora irá retornar o resultado da operação, que neste caso é 5.
 
 # Subtração
 python calculator.py
-5
+5-
 2
 A calculadora irá retornar o resultado da operação, que neste caso é 3.
 
 # Multiplicação
 python calculator.py
-2
+2*
 3
 A calculadora irá retornar o resultado da operação, que neste caso é 6.
 
 # Divisão
 python calculator.py
-6
+6/
 2 
 
 A calculadora irá retornar o resultado da operação, que neste caso é 3.
