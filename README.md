@@ -1,6 +1,8 @@
 # Calculadora em Python
 Este projeto é uma calculadora simples desenvolvida em Python. Ela suporta as operações matemáticas básicas, incluindo adição, subtração, multiplicação e divisão. A calculadora também permite realizar cálculos com números inteiros e decimais.
 
+https://br.pinterest.com/pin/669417932140561549#:~:text=%3Ciframe%20src%3D%22https%3A//assets.pinterest.com/ext/embed.html%3Fid%3D669417932140561549%22%20height%3D%22599%22%20width%3D%22345%22%20frameborder%3D%220%22%20scrolling%3D%22no%22%20%3E%3C/iframe%3E
+
 Pré-requisitos
 
 Para executar este projeto, você precisará ter Python 3 instalado em seu computador. Você também pode usar uma IDE, como o PyCharm ou o Visual Studio Code, para facilitar o desenvolvimento e a depuração do código.
