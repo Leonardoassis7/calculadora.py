@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.game-board{
+    width: 100%;
+    height: 500px;
+    border: 15px solid #1d7c2a;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+    background: linear-gradient(#87CEED, #E0F6FF);
+}
+
+.pipe{
+    position: absolute;
+    bottom: 0;
+    width: 60px;
+    height: 60px;
+    animation: pipe-animation 2s infinite linear; 
+}
+
+.mario{
+    width: 100px;
+    position: absolute;
+    bottom: 0;
+}
+
+.jump{
+    animation: jump 500ms ease-out;  
+}
+
+.clouds{
+    position: absolute;
+    width: 400px;
+    animation: clouds-animation 30s infinite linear;
+}
+@keyframes pipe-animation {
+    from{
+        right: 0;
+    }
+    to{
+        right: 100%;
+    }
+}
+
+/* Aqui é o pulo do personagem 0 ele vai está no chão 50% no meio da tela ele está no alto e no final 0 ele volta para o achão */
+@keyframes jump {
+    0% {
+        bottom: 0%;    
+    }
+    40%{
+        bottom: 190px;
+    }
+    50%{
+        bottom: 190px;
+    }
+    60%{
+        bottom: 190px;
+    }
+    100%{
+        bottom: 0;
+    }
+
+}
+
+@keyframes clouds-animation {
+    from {
+        right: -300px;
+    }
+    to {
+        right: 100%;
+    }
+} 
